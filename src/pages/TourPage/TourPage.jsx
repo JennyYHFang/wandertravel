@@ -31,8 +31,8 @@ return(
     <h1>Tour Information Page</h1>
     { 
     <div>
-        <h1>{tour.title}</h1>
-        <h3>{tour.description}</h3>
+        <h1><b>Title: </b>{tour.title}</h1>
+        <h3><b>Description: </b>{tour.description}</h3>
         <Link to={`/tours/${tour._id}/edit`}><button>Edit Tour</button></Link>
     </div>
     }

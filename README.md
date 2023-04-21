@@ -11,7 +11,7 @@ I love traveling and creating memories such as recording and writing reviews abo
 
  ![Tour Page](./src/components/media/TourPage.png)
 
-![Edit Page](./src/components/media/EditTourPage.pnggi)
+![Edit Page](./src/components/media/EditTourPage.png)
 
 
 # Languages and Tool Used:
