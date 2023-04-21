@@ -37,7 +37,7 @@ return(
     </div>
     }
         <h2>My Review</h2>
-        <ReviewList id={id}/> 
+        <ReviewList id={id} /> 
         <ReviewForm id={id} />   
         </>
     )
