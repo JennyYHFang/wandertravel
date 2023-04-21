@@ -17,7 +17,7 @@ const ReviewList = ({ id }) => {
           <p><b>Title:</b> {review.title}</p>
           <p><b>Review: </b>{review.review}</p>
           <p><b>Rating:</b> {review.rating} star rating</p>
-          
+          <p><b>Date:</b>{new Date(review.createdAt).toLocaleDateString()}</p>
         </div>
       ))}
     </div>
