@@ -5,15 +5,13 @@
 I love traveling and creating memories such as recording and writing reviews about the place. I want to record all places I have been to and be able to look back at my memories. I created an app to record the tours and adventures that I encountered when I go on vacation. 
 
 # Screenshots 
- ![Login Page](./src/media/firstpage.png)
+ ![Login Page](./src/components/media/firstpage.png)
 
- ![Home Page]()
+ ![Home Page](./src/components/media/homepage.png)
 
- ![Tour Page]()
+ ![Tour Page](./src/components/media/TourPage.png)
 
-![Login Page]()
-
-![Edit Page]()
+![Edit Page](./src/components/media/EditTourPage.pnggi)
 
 
 # Languages and Tool Used:
