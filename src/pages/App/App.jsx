@@ -3,8 +3,11 @@ import { Routes, Route } from 'react-router-dom';
 import { getUser } from '../../utilities/users-service';
 import './App.css';
 import AuthPage from '../AuthPage/AuthPage';
-import NewOrderPage from '../NewOrderPage/NewOrderPage';
-import OrderHistoryPage from '../OrderHistoryPage/OrderHistoryPage';
+import NewTourPage from "../NewTourPage/NewTourPage";
+import AllToursPage from '../AllToursPage/AllToursPage';
+import EditTourPage from '../EditTourPage/EditTourPage';
+import TourPage from '../TourPage/TourPage';
+
 import NavBar from '../../components/NavBar/NavBar';
 
 export default function App() {
@@ -17,8 +20,10 @@ export default function App() {
             <NavBar user={user} setUser={setUser} />
             <Routes>
               {/* Route components in here */}
-              <Route path="/orders/new" element={<NewOrderPage />} />
-              <Route path="/orders" element={<OrderHistoryPage />} />
+              <Route path="/tours/:id" element={<TourPage />} />
+              <Route path="/tours/new" element={<NewTourPage />} />
+              <Route path="/tours" element={<AllToursPage />} />
+              <Route path="/tours/:id/edit" element={<EditTourPage />} />
             </Routes>
           </>
           :

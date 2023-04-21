@@ -15,7 +15,6 @@ function checkToken(req, res) {
 
 async function create(req, res) {
   try {
-    // Add the user to the db
     const user = await User.create(req.body);
     const token = createJWT(user);
     res.json(token);
@@ -33,6 +32,7 @@ async function login(req, res) {
     const token = createJWT(user);
     res.json(token);
   } catch (err) {
+    console.log(err)
     res.status(400).json('Bad Credentials');
   }
 }
@@ -41,7 +41,6 @@ async function login(req, res) {
 
 function createJWT(user) {
   return jwt.sign(
-    // data payload
     { user },
     process.env.SECRET,
     { expiresIn: '24h' }
