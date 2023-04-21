@@ -9,7 +9,7 @@ I love traveling and creating memories such as recording and writing reviews abo
 
  ![Home Page](./src/components/media/homepage.png)
 
- ![Tour Page](./src/components/media/TourPage.png)
+ ![Tour Page](./src/components/media/TourPage1.png)
 
 ![Edit Page](./src/components/media/EditTourPage.png)
 
